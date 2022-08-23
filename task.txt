@@ -1,0 +1,26 @@
+Abha Meshram
+day-1:Sing Up page.
+issues-->
+1)Form
+2)Store in local storage.
+3)alert msg to get otp.
+
+day-2:Front page
+issues--->
+1)Navbar
+2)search bar
+3)add images and data
+4)store in local storage
+
+day-3:Cart page
+issues--->
+1)Navbar
+3)get item added from local storage
+2)add item with count an images
+3)total amount and proceed to order
+
+day-4:Offer page
+issues-->
+1)offer cards
+2)apply cupon on cart product
+
