@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Log in</title>
+    <link rel="stylesheet" href="script/login.js">
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+    <form>
+      <img src="https://assets.pharmeasy.in/web-assets/dist/fca22bc9.png?dim=256x0" alt="">
+      <input type="text" id="phone" placeholder="Enter your Phone Number"><br>
+      <input type="submit" value="Send OTP">
+      <p>By clicking continue, you agree with our <l>Privacy Policy</l></p>
+      </div>
+    </form>
+</body>
+</html>
+<script>
+    let LSData=JSON.parse(localStorage.getItem("phoneNumber"))||[];
+let form=document.querySelector("form");
+form.addEventListener("submit",function(e){
+    e.preventDefault();
+    let obj={
+      phone:form.phone.value
+    }
+    if(phone.value===""){
+       alert("Please Enter Your Phone Number")
+    }else{
+       alert("OTP has been sended to your Phone Number")
+    }
+    
+    LSData.push(obj)
+    localStorage.setItem("phoneNumber",JSON.stringify(LSData))
+})
+</script>
