@@ -3,6 +3,7 @@
     grid-template-columns: repeat(3,1fr); 
     text-align: center;
     margin-top: 60px;
+    margin-left: 30px;
     
 }
 #container>div{
@@ -15,21 +16,51 @@ p{
     text-align: center;
     font-weight: bold;
 }
-button{
-  font-size: larger;
- background-color:#108473 ;
- color: white;
- border: none;
-}
-#container img{
-    height:350px;
-    width:250px;
-    margin-top: 15px;
-}
-#container>div:hover{
-    background-color: rgb(205, 150, 150);
-}
-button:hover{
-    background-color:white;
- color:#108473 ;
-}
+#container button{
+    font-size: larger;
+   background-color:#108473 ;
+   color: white;
+   border: none;
+   padding: 10px;
+   border-radius: 10px;
+   
+  }
+  #container img{
+      height:300px;
+      width:200px;
+      margin-top: 15px;
+  }
+  #container>div:hover{
+      box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+  }
+  #container button:hover{
+      background-color:black;
+      color:white;
+  }
+  h1{
+      text-align: center;
+      color: #108473;
+  }
+   h1+button{
+     margin-left: 46%;
+      padding:15px;
+      background-color: black;
+      color: white;
+      font-size: large;
+      border-radius: 10px;
+      border: none;
+   }
+   button:hover{
+      background-color:orangered;
+      color: white;
+   }
+   @media all and (min-width:320px) and (max-width:650px){
+      #container{
+          grid-template-columns: repeat(2,1fr); 
+      }
+   }
+   @media all and (min-width:650px) and (max-width:1020px){
+      #container{
+          grid-template-columns: repeat(3,1fr); 
+      }
+   }

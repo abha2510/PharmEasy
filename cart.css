@@ -1,0 +1,53 @@
+h1{
+    text-align: center;
+    font-family: sans-serif;
+    color: teal;
+}
+#contain{
+    height:auto;
+    width:90%;
+    margin: auto;
+    border:0px solid black;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap:20px;
+
+}
+#contain div{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; 
+}
+#contain img{
+    height:280px;
+    width:250px;
+    margin-top: 15px;
+    margin-left: 20%;
+}
+p{
+    text-align: center;
+    font-weight: bold;
+}
+button{
+    font-size: larger;
+   background-color:#108473 ;
+   color: white;
+   border: none;
+   margin:0 40% 
+  }
+  #contain button{
+    padding: 10px;
+    border-radius: 10px;
+  }
+  #contain button:hover{
+    background-color: orange;
+    color: white;
+  }
+  @media all and (min-width:320px) and (max-width:650px){
+    #contain{
+        grid-template-columns: repeat(1,1fr);
+    }
+  }
+  @media all and (min-width:650px) and (max-width:1020px){
+    #contain{
+        grid-template-columns: repeat(2,1fr);
+    }
+  }
