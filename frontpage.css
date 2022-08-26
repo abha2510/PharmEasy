@@ -212,7 +212,7 @@ input {
 .orderfor{
     width:90%;
     height:210px;
-    border:1px solid green;
+    border:0px solid green;
     margin:auto;
     display: flex;
     margin-top: 60px;
@@ -221,8 +221,9 @@ input {
 .orderfor div{
     height:98%;
     width:33%;
-    border:1px solid blueviolet;
+    border:0px solid blueviolet;
     margin: auto;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 .orderfor div{
     text-align: center;
