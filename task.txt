@@ -19,8 +19,13 @@ issues--->
 2)add item with count an images
 3)total amount and proceed to order
 
-day-4:Offer page
+day-4:functionality
 issues-->
-1)offer cards
-2)apply cupon on cart product
+1)cart function
+2)login function
 
+
+ 
+
+  <input type="text" id="log" value="Login">
+  localStorage.setItem("phoneNumber",JSON.stringify(LSData))
