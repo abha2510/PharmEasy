@@ -1,31 +1,34 @@
 form{
-    height:350px;
-    width:43%;
+    height:500px;
+    width:35%;
     border:0px solid red;
     margin: auto;
-    margin-top: 60px;
+    margin-top: 80px;
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    background: rgb(241,214,226);
+background: linear-gradient(99deg, rgba(241,214,226,1) 0%, rgba(190,215,245,1) 100%);
 }
 form>img{
     width: 100%;
-    height:150px;
-    background-color: #108473;
+    height:100px;
+    background-color:#108473;
+    
    
 }
 input{
     font-size: xx-large;
-    margin-top: 30px;
+    margin-top: 60px;
     width: 98%;
     border-radius: 7px;
     
 }
 input[type="submit"]{
-    margin-top: 30px;
+    margin-top: 60px;
     font-size:xx-large;
     width:99%;
-    background-color: #108473;
     border-radius: 6px;
-     color: white; 
+    background-color: #108473;
+    color: white; 
     border: none;
     
     

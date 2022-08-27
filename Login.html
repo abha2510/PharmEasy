@@ -2,7 +2,6 @@
 <html lang="en">
 <head>
     <title>Log in</title>
-    <link rel="stylesheet" href="script/login.js">
     <link rel="stylesheet" href="login.css">
 </head>
 <body>
@@ -16,10 +15,13 @@
 </body>
 </html>
 <script>
+  
     let LSData=JSON.parse(localStorage.getItem("phoneNumber"))||[];
-let form=document.querySelector("form");
-form.addEventListener("submit",function(e){
+   let form=document.querySelector("form");
+   form.addEventListener("submit",function(e){
     e.preventDefault();
+    logpage.style.transform="translateX(-400px)";
+
     let obj={
       phone:form.phone.value
     }
@@ -31,5 +33,10 @@ form.addEventListener("submit",function(e){
     
     LSData.push(obj)
     localStorage.setItem("phoneNumber",JSON.stringify(LSData))
-})
+   })
+    let cross=document.getElementById("cross");
+    cross.onclick=function()
+    {
+        logpage.style.transform="translateX(+400px)";
+    }
 </script>
