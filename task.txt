@@ -27,5 +27,4 @@ issues-->
 
  
 
-  <input type="text" id="log" value="Login">
-  localStorage.setItem("phoneNumber",JSON.stringify(LSData))
+  
