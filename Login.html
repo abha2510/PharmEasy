@@ -20,8 +20,6 @@
    let form=document.querySelector("form");
    form.addEventListener("submit",function(e){
     e.preventDefault();
-    logpage.style.transform="translateX(-400px)";
-
     let obj={
       phone:form.phone.value
     }
@@ -34,9 +32,5 @@
     LSData.push(obj)
     localStorage.setItem("phoneNumber",JSON.stringify(LSData))
    })
-    let cross=document.getElementById("cross");
-    cross.onclick=function()
-    {
-        logpage.style.transform="translateX(+400px)";
-    }
+   
 </script>
