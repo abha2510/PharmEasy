@@ -2,15 +2,17 @@
 
 #### PharmEasy is one of India's most trusted online pharmacy &amp; medical stores offering pharmaceutical and healthcare products at a FLAT 20% OFF*.
 
+Netlify Link : https://resonant-hotteok-afdeca.netlify.app/
+
 This is an Individual project created in 4 days.
 
 Teachstachs use here are:
-- HTML
-- CSS
-- Basic Javascript
+- HTML - 42.1%
+- CSS - 25.4%
+- Basic Javascript - 32.5%
 
 
- Netlify Link : https://resonant-hotteok-afdeca.netlify.app/
+
 
  Home page
  
